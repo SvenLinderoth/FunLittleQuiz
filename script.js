@@ -162,12 +162,12 @@ const questions = [
         ]
     },
     {
-        question: "What does Sven drink too much of?",
+        question: "What does Sven enjoy most?",
         answers: [
-            { text: "Alcohol", correct: true},
+            { text: "Alcohol", correct: false},
             { text: "Coffee", correct: true },
-            { text: "Pepsi Max", correct: true },
-            { text: "Energy Drinks", correct: true },
+            { text: "Pepsi Max", correct: false},
+            { text: "Energy Drinks", correct: false},
         ]
     },
     {
@@ -180,12 +180,12 @@ const questions = [
         ]
     },
     {
-        question: "What did Sven spend most of his time doing in High School?",
+        question: "What is one fact about Sven?",
         answers: [
-            { text: "Study", correct: false},
-            { text: "Socialising with his classmates", correct: false },
-            { text: "Playing video-games", correct: true },
-            { text: "Going to school", correct: false },
+            { text: "He played Hockey", correct: false},
+            { text: "He studies to be a teacher", correct: false },
+            { text: "He likes going to the gym", correct: true },
+            { text: "He does not like coffee", correct: false },
         ]
     },
 ]
